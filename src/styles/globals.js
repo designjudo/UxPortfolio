@@ -77,7 +77,9 @@ export default {
      */
     "code, kbp, samp": {
       fontFamily: "monospace, monospace" /* 1 */,
-      fontSize: "1em" /* 2 */
+      fontSize: "1em" /* 2 */,
+      borderRadius: "0!important",
+      padding: "0 4px!impotant"
     },
 
     /**

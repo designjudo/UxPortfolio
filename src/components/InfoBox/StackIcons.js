@@ -9,9 +9,6 @@ import JssIcon from "!svg-react-loader!../../images/svg-icons/jss.svg?name=JssIc
 import MaterialUiIcon from "!svg-react-loader!../../images/svg-icons/material-ui.svg?name=MaterialUiIcon";
 import ReduxIcon from "!svg-react-loader!../../images/svg-icons/redux.svg?name=ReduxIcon";
 import GatsbyIcon from "!svg-react-loader!../../images/svg-icons/gatsby.svg?name=GatsbyIcon";
-import WebpackIcon from "!svg-react-loader!../../images/svg-icons/webpack.svg?name=WebpackIcon";
-import BabelIcon from "!svg-react-loader!../../images/svg-icons/babel.svg?name=BabelIcon";
-import NetlifyIcon from "!svg-react-loader!../../images/svg-icons/netlify.svg?name=NetlifyIcon";
 
 const styles = theme => ({
   stack: {
@@ -58,10 +55,7 @@ const StackIcons = props => {
     { name: "jss", url: "http://cssinjs.org/", comp: JssIcon },
     { name: "material-ui", url: "https://material-ui-next.com/", comp: MaterialUiIcon },
     { name: "redux", url: "https://redux.js.org/", comp: ReduxIcon },
-    { name: "algolia", url: "https://www.algolia.com/", comp: AlgoliaIcon },
-    { name: "webpack", url: "https://webpack.js.org/", comp: WebpackIcon },
-    { name: "babel", url: "https://babeljs.io/", comp: BabelIcon },
-    { name: "netlify", url: "https://www.netlify.com/", comp: NetlifyIcon }
+    { name: "algolia", url: "https://www.algolia.com/", comp: AlgoliaIcon }
   ];
 
   return (

@@ -6,6 +6,7 @@ import { forceCheck } from "react-lazyload";
 import ListHeader from "./ListHeader";
 import SpringScrollbars from "../SpringScrollbars";
 import ListItem from "./ListItem";
+import Background from "../../images/jpg/background.jpg";
 
 const styles = theme => ({
   posts: {
@@ -13,7 +14,13 @@ const styles = theme => ({
     left: 0,
     top: 0,
     bottom: 0,
-    width: "100%"
+    width: "100%",
+    background: {
+      image: `url(${Background})`,
+      size: "cover",
+      position: "bottom center",
+      repeat: "no-repeat"
+    }
   },
   inner: {
     padding: `calc(${theme.bars.sizes.infoBar}px + 1.3rem) 1.3rem calc(${

@@ -13,8 +13,9 @@ const styles = theme => ({
     width: "100%"
   },
   link: {
+    marginTop: "25px",
     padding: ".5em",
-    fontWeight: 300,
+    fontWeight: 400,
     fontTransform: "lowercase",
     color: theme.info.colors.menuLink,
     "&:hover": {

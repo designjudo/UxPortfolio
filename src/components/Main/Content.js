@@ -21,7 +21,7 @@ const styles = theme => ({
     },
     "& code:not(pre)": {
       textShadow: "none",
-      padding: ".1em .3em .2em",
+      padding: ".1em .8em .2em",
       borderRadius: ".1em"
     },
     "& .gatsby-resp-image-link": {
