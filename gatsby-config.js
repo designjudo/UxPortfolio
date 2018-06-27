@@ -35,14 +35,12 @@ module.exports = {
     siteUrl: config.siteUrl,
     pathPrefix: config.pathPrefix,
     algolia: {
-      appId: process.env.ALGOLIA_APP_ID ? process.env.ALGOLIA_APP_ID : "89C5RU3P4S",
-      searchOnlyApiKey: process.env.ALGOLIA_SEARCH_ONLY_API_KEY
-        ? process.env.ALGOLIA_SEARCH_ONLY_API_KEY
-        : "d57b6a141ab83cfb63608a4eda3290bd",
-      indexName: process.env.ALGOLIA_INDEX_NAME ? process.env.ALGOLIA_INDEX_NAME : "MSTR"
+      appId: "89C5RU3P4S",
+      searchOnlyApiKey: "d57b6a141ab83cfb63608a4eda3290bd",
+      indexName: "MSTR"
     },
     facebook: {
-      appId: process.env.FB_APP_ID ? process.env.FB_APP_ID : "tgmathes"
+      appId: "tgmathes"
     }
   },
   plugins: [
