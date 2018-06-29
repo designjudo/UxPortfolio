@@ -157,7 +157,7 @@ export default {
      * 2. Remove the margin in Firefox and Safari.
      */
     "button, input, optgroup, select, textarea": {
-      fontFamily: "Lato,sans-serif" /* 1 */,
+      fontFamily: "Open Sans,sans-serif" /* 1 */,
       fontSize: "100%" /* 1 */,
       lineHeight: "1.15" /* 1 */,
       margin: 0 /* 2 */

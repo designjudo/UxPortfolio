@@ -73,7 +73,7 @@ const styles = theme => ({
     "& h1": {
       lineHeight: 1.15,
       fontWeight: 600,
-      letterSpacing: "-0.03em",
+      letterSpacing: "0em",
       margin: 0,
       fontSize: `${theme.navigator.sizes.postsListItemH1Font}em`,
       [`@media (min-width: ${theme.mediaQueryTresholds.M}px)`]: {
@@ -84,7 +84,7 @@ const styles = theme => ({
         fontSize: `${theme.navigator.sizes.postsListItemH1Font *
           theme.navigator.sizes.fontIncraseForL}em`,
         ".moving-featured &, .is-aside &": {
-          fontSize: "1em",
+          fontSize: "1.3em",
           fontWeight: 400
         }
       }

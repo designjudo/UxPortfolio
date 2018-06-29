@@ -1,37 +1,24 @@
 ---
 title: About
 ---
+Thanks for drooping by! I'm a Navy veteran, ex-bartender and nocturnal designer/developer living in Jacksonville, Florida. I spent most of my time hanging with my four-year-old, and trying to find the perfect Old-Fashioned. I lived in Japan for a few years, and am crazy about authentic Ramen. Enough about me, let's talk about code!
 
-This is a demo site of the [PersonalBlog](https://github.com/greglobinski/gatsby-starter-personal-blog) GatsbyJS starter.
+![me](./laptop-home.jpg)
 
-The starter is a ready to use, easy to customize 'like theme' starter. It has everything what blog should have and some more.
+This past year I have been involved in some huge projects, and figured this would be a great way to channel some ideas and thoughts about the design & development industry as a whole.
 
-### Standard features:
+I'm a lead UX Designer for an enterprise healthcare corporation working on several projects within my organization, I've been designing customer experience (CX) applications that call center advocates use to serve their members. I've been building protoypes, sitting with users, coding UiKits, writing documentation, architecting design patterns, drinking lots of coffee and going to lots of meetings about data.
 
-* Easy editable content in **Markdown** files (posts, pages and parts)
-* **SEO** (sitemap generation, robot.txt, meta and OpenGraph Tags)
-* **Social** sharing (Twitter, Facebook, Google, LinkedIn)
-* **Comments** (Facebook)
-* **Images** lazy loading and `webp` support (gatsby-image)
-* Post **categories** (post list filtering)
-* Full text **searching** (Algolia)
-* **Contact** form (Netlify form handling)
-* **RSS** feed
-* **PWA** (manifes.json, offline support, favicons)
-* Google **Analytics**
-* **Favicons** generator (node script)
-* **Material UI** (@next)
+#### **Disclaimer!**
+I am very opinionated about the technology and tools we've been using lately, but would love to hear about what everyone has found useful in their experience.
 
-### Advanced features:
+### Current Toolbelt:
 
-* Easy customizable base **styles** via `theme` object (fonts, colors, sizes)
-* **Components** lazy loading (social sharing, comments)
-* **ESLint** (google config)
-* **Prettier** code styling
-* Custom webpack `CommonsChunkPlugin` settings
-* Webpack `BundleAnalyzerPlugin`
-* Contact **form validation** (react-material-ui-form-validator)
-
-## Instructions
-
-For detailed instructions go to [Front-end web development with Greg](https://dev.greglobinski.com/gatsby-starter-personal-blog/).
+* **Design** — Primarily Adobe XD for speed, but also Sketch and inVision Studio
+* **Illustration/ Animation** — Adobe CC, Cinema4D
+* **Prototyping** — inVision + Maze
+* **IDE** — VsCode / WebStorm
+* **Framework** — React/ Redux, Next.js, Gatsby
+* **CSS** — Material-UI, Styled-Components & JSS
+* **Global theme objects > Global Stylesheets** 
+* **CSS-in-JSS > Sass**

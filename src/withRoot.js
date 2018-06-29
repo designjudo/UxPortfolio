@@ -3,6 +3,22 @@ import PropTypes from "prop-types";
 import { MuiThemeProvider } from "@material-ui/core/styles";
 import CssBaseline from "@material-ui/core/CssBaseline";
 import getPageContext from "./getPageContext";
+import { injectGlobal } from "styled-components"
+
+injectGlobal`
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600|Oranienbaum');
+
+html, body {
+  font-family: 'Open Sans', helvetica, sans-serif;
+}
+h1 {
+  font-family: Oranienbaum, 'Open Sans', sans-serif;
+}
+img {
+  width: 100%;
+}
+`
+
 
 function withRoot(Component) {
   class WithRoot extends React.Component {

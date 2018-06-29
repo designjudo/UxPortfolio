@@ -19,7 +19,7 @@ const theme = createMuiTheme({
     },
     fonts: {
       unstyledFamily: `Arial`,
-      styledFamily: "Lato",
+      styledFamily: "Oranienbaum",
       styledFonts: "300,400,600"
     }
   },
@@ -84,8 +84,8 @@ const theme = createMuiTheme({
       },
       subTitle: {
         size: 1.5,
-        sizeM: 1.8,
-        sizeL: 1.95,
+        sizeM: 1.5,
+        sizeL: 1.5,
         weight: 300,
         lineHeight: 1.1
       },
@@ -94,7 +94,7 @@ const theme = createMuiTheme({
         weight: 600
       },
       content: {
-        size: 1.0,
+        size: 1.1,
         sizeM: 1.15,
         sizeL: 1.1,
         lineHeight: 1.6
@@ -106,7 +106,7 @@ const theme = createMuiTheme({
         lineHeight: 1.3
       },
       footer: {
-        size: 1,
+        size: 1.0,
         lineHeight: 1.4
       }
     }
